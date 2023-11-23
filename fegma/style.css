@@ -1,0 +1,270 @@
+body{
+   margin:0px ; 
+    
+}
+.header-page{
+   
+      background-color: rgb(3, 3, 18);  
+}
+.logo{
+    display: flex;
+     
+}
+.logo p{
+    color: gold;
+    padding-left: 20px;
+}
+.logo img{
+    margin-top: 10px;
+}
+
+.navbar{
+     display: flex;
+     justify-content: space-evenly ;
+     padding-top: 30px;
+}
+.navbar nav ul{
+    display: flex;
+    
+    list-style: none;      
+}
+.button{
+    display: flex;
+}
+.navbar nav ul li{
+    padding:  10px 20px 10px  20px;
+    color: white;
+}
+.button{
+    display:flex; 
+    margin-top: 10px;
+     
+}
+.sign{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color:inherit;
+     border-color: gold;
+     
+}
+ .account{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    background-color:gold;
+    color:white; 
+}
+
+.header-text{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 100px  50px;
+}
+/* .text{
+     flex-basis: 70px;
+}
+.bit-image{
+    flex-basis: 30px;
+} */
+.bit-image img{
+    max-width: 100%;
+    height: auto;
+}
+.app{
+    display: flex;
+  
+}
+.apple{
+    display: flex;
+    border-radius: 10px; 
+    height: 50px;
+  
+}
+.google{
+    display: flex;
+    border-radius: 10px; 
+    height: 50px;
+    width: 150px;
+    margin-left:20px;
+}
+   .download-app-store{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    
+   }
+        
+    }
+    .body-one{
+        margin: 30px;
+    }
+    .phone{
+        display: flex;
+        justify-content:  space-around ;
+        flex-wrap: wrap;
+    
+    }
+    .phone img{
+        max-width: 100%;
+    }
+    .zero{
+        padding: 50px;
+       
+    }
+    .zero p{
+        inline-size:600px  ;
+    }
+ .savetime{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .works{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+ }
+ .signup{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+ }
+ .signupto{
+    display: flex;
+      margin-right: 100px;
+      flex-wrap:wrap
+ }
+ .number{
+    background-color: black;
+    color: gold;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    top: 50px;
+ }
+ .box{
+    background-color:  rgba(254,251,243,255) ;
+    padding: 20px;
+ }
+ .body-bottom{
+    display: flex;
+    background-color: gold;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+ }
+ .body-bottom button{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+ }
+
+ section{
+    overflow: hidden;
+ }
+
+ footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: black;
+    flex-wrap: wrap;
+ }
+ footer ul li{
+    padding: 10px;
+    list-style: none;
+    color:white;
+ }
+ /* for mobile device:320px-480px */
+ /* for  tablet or ipad: 480px-768px */
+ /* for laptop  or small size screen: 768px-1024 */
+ /* fordesktop or larfe screen: 1024-1200px*/
+
+  @media screen and (max-width:768px ) {
+     .navbar{
+        display: none;
+     }
+     .header-text{
+        flex-direction:  column;
+     }
+     
+     .text{
+         padding-bottom: 30px;
+    }
+
+    .app{
+        flex-direction: column;
+    }
+    .phone img{
+        max-width: 100%;
+    }
+        .but{
+            padding-bottom:50px ;
+        }
+        .woman1{
+            width: fit-content;
+        }
+        .woman1 h2{
+          padding-left: 20px;
+        }
+        .woman1 p{
+            padding-left: 20px;
+            padding-bottom: 30px;
+        }
+
+        .woman2{
+            width: fit-content;
+        }
+        .woman2 h2{
+          padding-left: 20px;
+        }
+        .woman2 p{
+            padding-left: 20px;
+            
+        }
+        .number{
+            left: 100px;
+        }
+        .box{
+            text-align: center;
+            padding-left: 50px;
+        }
+        .zero{
+            width:fit-content;
+        }
+        .zero h1{
+            inline-size: 277px;
+        }
+        .zero p{
+            inline-size:286px;
+            
+        }
+        .body-bottom{
+
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+         
+        footer ul li{
+            inline-size:20px
+        }
+        footer ul{
+            inline-size: 20px;
+            margin-left: -95px;
+        }
+    }
+
+  
